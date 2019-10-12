@@ -33,7 +33,7 @@ nav li a {
 	background-color: #0091ab;
 	margin: 7% 0% 10% 0%;
 	text-align: center;
-	padding: 2% 2%;
+	padding: 3% 2%;
 }
 
 .circle-icon {
@@ -74,7 +74,6 @@ section  {
 	height: 50vh; */
 	width: 60%;
 	background-color: #F5F5F5;
-	padding: 0% 5% 0% 0%;
 	margin: auto;
 	margin-top: 5%;
 	margin-bottom: 5%;
@@ -101,17 +100,20 @@ section .experience-box  {
 .left-image-1 {
 	background-image: url("images/parkell-box.jpg");
 	flex-shrink: 1;
-	height: 0%;
-	width: 0%;
+	height: 20%;
+	width: 100%;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .left-image-2 {
 	background-image: url("images/parking-box.jpg");
 	flex-shrink: 1;
-	height: 0%;
-	width: 0%;
+	justify-content: center;
+	height: 20%;
+	width: 100%;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 article {
@@ -160,8 +162,8 @@ section li a {
 
 video {
 	width: 100%;
-	height: 160px;
-	margin-bottom: 3%;
+	height: 100%;
+	margin: 3% 0 3% 0;
 }
 
 figure img {
@@ -178,8 +180,8 @@ figcaption {
 	margin: 1% 0% 3% 0%;
 }
 
-figure .bottom-section-figure img {
-	padding: 0 0 3% 0;
+.postcard {
+	padding:
 }
 
 footer {
@@ -208,11 +210,6 @@ footer img {
 	margin: 2%;
 }
 
-
-.listing h3 {
-		padding: 2% 0% 0% 0%;
-}
-
 .listing ul {
 	margin: 2% 0% 5% 0%;
 }
@@ -225,9 +222,17 @@ footer img {
 
 	section {
 	width: 85%;
-	padding: 0% 2%;
 	}
 
+@media (min-width: 500px) {
+	.learn-more {
+	  margin-top: 2%;
+	}
+
+	.learn-more a {
+	  font-size: 1em;
+	}
+}
 
 @media (min-width: 550px) {
 	footer img {
@@ -275,11 +280,32 @@ footer img {
 	}
 
 	figure img {
-		width: 70%;
+		width: 100%;
+		margin: auto;
+	}
+
+	.email-graphic {
+		margin: 3% 0 0 0;
+	}
+
+	.site {
+		margin: 3% 0 0 0;
+	}
+
+	.sign {
+		margin: 3% 0 3% 0;
 	}
 }
 
+@media (min-width: 730px) {
+	.learn-more {
+	  margin-top: 2.5%;
+	}
 
+	.learn-more a {
+	  font-size: 1.1em;
+	}
+}
 
 @media (min-width: 890px) {
 	.experience-box  {
@@ -331,16 +357,18 @@ footer img {
 		background-repeat: no-repeat;
 	}
 
-	figure img {
-		width: 40%;
+	.learn-more {
+	  margin-top: 1%;
 	}
 
-	aside h3 {
-		margin: 3% 0% 1% 0%;
+}
+
+@media (min-width: 1100px) {
+	article {
+		padding: 3% 6% 5% 6%;
 	}
 
-	figcaption {
-		margin: 1% 0% 0% 0%;
+	section {
+		width: 70%;
 	}
-
 }
