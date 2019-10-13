@@ -100,20 +100,22 @@ section .experience-box  {
 .left-image-1 {
 	background-image: url("images/parkell-box.jpg");
 	flex-shrink: 1;
-	height: 20%;
+	height: 30%;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 10%;
 }
 
 .left-image-2 {
 	background-image: url("images/parking-box.jpg");
 	flex-shrink: 1;
 	justify-content: center;
-	height: 20%;
+	height: 30%;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 10%;
 }
 
 article {
@@ -145,7 +147,7 @@ section li {
 
 .learn-more a {
   font-family: 'Nunito', sans-serif;
-  color: #a83e3e;
+  color: #E74C3C;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -153,7 +155,7 @@ section li {
 }
 
 .learn-more a:hover {
-  color: #6b1010;
+  color: #BB2F21;
 }
 
 section li a {
