@@ -374,3 +374,9 @@ footer img {
 		width: 70%;
 	}
 }
+
+@media (min-width: 1300px) {
+	section {
+		width: 50%;
+	}
+}
