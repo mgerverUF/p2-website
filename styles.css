@@ -345,6 +345,7 @@ footer img {
 		height: 100%;
 		width: 100%;
 		min-width: 150px;
+		height: initial;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -355,6 +356,8 @@ footer img {
 		height: 100%;
 		width: 100%;
 		min-width: 150px;
+		max-width: 150px;
+		height: initial;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -377,6 +380,6 @@ footer img {
 
 @media (min-width: 1300px) {
 	section {
-		width: 50%;
+		width: 60%;
 	}
 }
